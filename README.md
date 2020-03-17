@@ -1,7 +1,6 @@
 # react-and-firebase-exercise-tracker
-This full stack project is built by using React and Firebase cloud-firestore
 
-This project was built with [React](https://reactjs.org/) and [Firebase firestore](https://firebase.google.com/docs/firestore).
+This full stack project is built with [React](https://reactjs.org/) and [Firebase firestore](https://firebase.google.com/docs/firestore).
 
 ## In Project directory
 * functions directory contains backend files
