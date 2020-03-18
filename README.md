@@ -8,5 +8,5 @@ This full stack project is built with [React](https://reactjs.org/) and [Firebas
 
 
 ## Check [Project Demo](https://arun-pratap.github.io/react-and-firebase-exercise-tracker/)
-While using demo don't <b>reload, go back</b> and <b>go forward</b>.Otherwise it will show errors. 
+While using demo don't <b>reload, go back</b> and <b>go forward</b>.Otherwise it may show errors. 
 Just follow the procedure given on page.
