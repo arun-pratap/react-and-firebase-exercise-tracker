@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-and-firebase-exercise-tracker/static/css/main.050523cc.chunk.css",
-    "main.js": "/react-and-firebase-exercise-tracker/static/js/main.384f6c32.chunk.js",
-    "main.js.map": "/react-and-firebase-exercise-tracker/static/js/main.384f6c32.chunk.js.map",
+    "main.js": "/react-and-firebase-exercise-tracker/static/js/main.5c7090ff.chunk.js",
+    "main.js.map": "/react-and-firebase-exercise-tracker/static/js/main.5c7090ff.chunk.js.map",
     "runtime-main.js": "/react-and-firebase-exercise-tracker/static/js/runtime-main.af64fd28.js",
     "runtime-main.js.map": "/react-and-firebase-exercise-tracker/static/js/runtime-main.af64fd28.js.map",
     "static/css/2.1417c86a.chunk.css": "/react-and-firebase-exercise-tracker/static/css/2.1417c86a.chunk.css",
     "static/js/2.eec48314.chunk.js": "/react-and-firebase-exercise-tracker/static/js/2.eec48314.chunk.js",
     "static/js/2.eec48314.chunk.js.map": "/react-and-firebase-exercise-tracker/static/js/2.eec48314.chunk.js.map",
     "index.html": "/react-and-firebase-exercise-tracker/index.html",
-    "precache-manifest.304c86acf9cee660c941394c4d7b203c.js": "/react-and-firebase-exercise-tracker/precache-manifest.304c86acf9cee660c941394c4d7b203c.js",
+    "precache-manifest.610b6ab42e2dc0692a88b201a8761876.js": "/react-and-firebase-exercise-tracker/precache-manifest.610b6ab42e2dc0692a88b201a8761876.js",
     "service-worker.js": "/react-and-firebase-exercise-tracker/service-worker.js",
     "static/css/2.1417c86a.chunk.css.map": "/react-and-firebase-exercise-tracker/static/css/2.1417c86a.chunk.css.map",
     "static/css/main.050523cc.chunk.css.map": "/react-and-firebase-exercise-tracker/static/css/main.050523cc.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.1417c86a.chunk.css",
     "static/js/2.eec48314.chunk.js",
     "static/css/main.050523cc.chunk.css",
-    "static/js/main.384f6c32.chunk.js"
+    "static/js/main.5c7090ff.chunk.js"
   ]
 }
