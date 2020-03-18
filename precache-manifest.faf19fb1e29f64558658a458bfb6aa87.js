@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a75961d66e0db701f781e267706b3aa",
+    "revision": "b517556ca4e7d3b80f9cfb4efd008476",
     "url": "/react-and-firebase-exercise-tracker/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-and-firebase-exercise-tracker/static/css/2.1417c86a.chunk.css"
   },
   {
-    "revision": "37dfbf6c6d930879a6c8",
+    "revision": "cdd58ab93e6d6b85add8",
     "url": "/react-and-firebase-exercise-tracker/static/css/main.050523cc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-and-firebase-exercise-tracker/static/js/2.eec48314.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37dfbf6c6d930879a6c8",
-    "url": "/react-and-firebase-exercise-tracker/static/js/main.5c7090ff.chunk.js"
+    "revision": "cdd58ab93e6d6b85add8",
+    "url": "/react-and-firebase-exercise-tracker/static/js/main.d4afda96.chunk.js"
   },
   {
     "revision": "9c511185d947204c196e",
