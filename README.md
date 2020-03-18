@@ -6,4 +6,4 @@ This full stack project is built with [React](https://reactjs.org/) and [Firebas
 * functions directory contains backend files
 * client directory contains frontend files
 
-Check [Project Demo](https://github.com/facebook/create-react-app)
+Check [Project Demo](https://arun-pratap.github.io/react-and-firebase-exercise-tracker/)
