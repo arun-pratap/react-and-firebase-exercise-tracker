@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-export default class CreateUser extends Component {
 
+
+export default class CreateUser extends Component {
     constructor(props) {
         super(props);
         this.state = {
             username: '',
-            errors: ''
+            addedUsers: '',
+            deletedUsers: '',
+            errors: '', //this property can be skip not useful
         }
-        this.onChange = this.onChange.bind(this);
-        this.onSubmit = this.onSubmit.bind(this);
     }
 
     onChange = (e) => {
@@ -19,6 +20,8 @@ export default class CreateUser extends Component {
         })
     }
 
+
+    //Form Submission
     onSubmit = (e) => {
         e.preventDefault();
 
@@ -33,14 +36,34 @@ export default class CreateUser extends Component {
             .then(() => {
                 alert('User Created')
             })
+            //update users
+            .then(() => {
+                axios
+                    .get('/countUsers')
+                    .then((res) => {
+                        this.setState({
+                            addedUsers: parseInt(res.data.addedUsers) + parseInt(1),
+                            deletedUsers: null
+                        })
+                        axios
+                            .post('/countUsers', ({
+                                addedUsers: this.state.addedUsers,
+                                deletedUsers: null
+                            }))
+                            .then(() => {
+                                console.log(this.state.addedUsers)
+                            })
+                    })
+            })
             .catch((err) => {
                 console.log(err);
             })
     };
 
+
     render() {
         return (
-            <div>
+            <>
                 <h3>Create New User</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
@@ -52,10 +75,10 @@ export default class CreateUser extends Component {
                             onChange={this.onChange} />
                     </div>
                     <div className="form-group">
-                        <input type="submit" value="Create User" className="btn btn-primary" />
+                        <input className="btn btn-primary" type="submit" value="Create User" />
                     </div>
                 </form>
-            </div>
+            </>
         )
     }
 }

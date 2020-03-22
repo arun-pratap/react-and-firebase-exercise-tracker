@@ -5,18 +5,18 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-                <Link to="/" className="navbar-brand">Excercise-Tracker</Link>
+            <nav className="navbar navbar-dark bg-primary navbar-expand-lg">
+                <Link to="/" className="navbar-brand"><h2 className="">Excercise-Tracker</h2></Link>
                 <div className="collpase navbar-collapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="navbar-item">
-                            <Link to="/user" className="nav-link">Create User</Link>
+                            <Link to="/user" className="nav-link text-white">Create User</Link>
                         </li>
                         <li className="navbar-item">
-                            <Link to="/create" className="nav-link">Create Exercise Log</Link>
+                            <Link to="/create" className="nav-link text-white">Create Exercise Log</Link>
                         </li>
                         <li className="navbar-item">
-                            <Link to="/" className="nav-link">Exercise Lists</Link>
+                            <Link to="/exerciselist" className="nav-link text-white">Exercise Lists</Link>
                         </li>
                     </ul>
                 </div>
