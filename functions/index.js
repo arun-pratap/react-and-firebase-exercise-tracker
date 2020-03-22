@@ -1,4 +1,4 @@
-//functions to handle functions
+//functions to handlehttps functions
 const functions = require('firebase-functions');
 
 const express = require('express');
@@ -8,8 +8,9 @@ app.use(cors({ origin: true }));
 app.use(express.json());
 
 const { getAllUsers,
-    createNewUser
-} = require('./handlers/userHandlers')
+    createNewUser,
+    getCountedUsers,
+    postCountedUsers } = require('./handlers/userHandlers')
 const {
     getAllExercisesOrId,
     postAndUpdateExercise,
@@ -20,11 +21,22 @@ const {
 app.get('/users', getAllUsers)
 app.post('/users', createNewUser)
 
+//count users
+app.get('/countUsers', getCountedUsers)
+app.post('/countUsers', postCountedUsers)
+
 //Exercise routes
 app.get('/exercises/:id?', getAllExercisesOrId)
 app.post('/exercises/:id?', postAndUpdateExercise)
 app.delete('/exercises/:id', deleteExerciseById)
+// Create and Deploy Your First Cloud Functions
+// https://firebase.google.com/docs/functions/write-firebase-functions
+// exports.helloWorld = functions.https.onRequest((request, response) => {
+//     response.send("Hello from Firebase!");
+// });
 
-
-//your region can be different
 exports.api = functions.region('us-central1').https.onRequest(app);
+
+exports.helloWorld = functions.https.onRequest((request, response) => {
+    response.send("Hello from Firebase!");
+});

@@ -25,8 +25,8 @@ exports.createNewUser = (req, res) => {
     }
     dbRef.collection('users')
         .add(newUser)
-        .then(() => {
-            return require.send("user created")
+        .then((res) => {
+            return res.send("user created")
         })
         .catch((err) => {
             console.error(err);
@@ -34,3 +34,31 @@ exports.createNewUser = (req, res) => {
     res.send("yeee!!!")
 }
 
+// count users
+exports.getCountedUsers = (req, res) => {
+    dbRef
+        .doc('usersCount/count')
+        .get()
+        .then((data) => {
+            return res.json(data.data());
+        })
+        .catch((err) => {
+            console.error(err)
+        })
+}
+
+exports.postCountedUsers = (req, res) => {
+    const countUsers = {
+        addedUsers: req.body.addedUsers,
+        deletedUsers: req.body.deletedUsers,
+    }
+    dbRef
+        .doc('usersCount/count')
+        .set(countUsers)
+        .then(() => {
+            return res.send("count updated")
+        })
+        .catch((err) => {
+            console.error(err)
+        })
+}
