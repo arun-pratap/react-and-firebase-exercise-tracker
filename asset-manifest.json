@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-and-firebase-exercise-tracker/static/css/main.050523cc.chunk.css",
-    "main.js": "/react-and-firebase-exercise-tracker/static/js/main.1d75e335.chunk.js",
-    "main.js.map": "/react-and-firebase-exercise-tracker/static/js/main.1d75e335.chunk.js.map",
+    "main.css": "/react-and-firebase-exercise-tracker/static/css/main.5e43dea8.chunk.css",
+    "main.js": "/react-and-firebase-exercise-tracker/static/js/main.79dc5fc7.chunk.js",
+    "main.js.map": "/react-and-firebase-exercise-tracker/static/js/main.79dc5fc7.chunk.js.map",
     "runtime-main.js": "/react-and-firebase-exercise-tracker/static/js/runtime-main.af64fd28.js",
     "runtime-main.js.map": "/react-and-firebase-exercise-tracker/static/js/runtime-main.af64fd28.js.map",
     "static/css/2.1417c86a.chunk.css": "/react-and-firebase-exercise-tracker/static/css/2.1417c86a.chunk.css",
-    "static/js/2.eec48314.chunk.js": "/react-and-firebase-exercise-tracker/static/js/2.eec48314.chunk.js",
-    "static/js/2.eec48314.chunk.js.map": "/react-and-firebase-exercise-tracker/static/js/2.eec48314.chunk.js.map",
+    "static/js/2.366cd6d0.chunk.js": "/react-and-firebase-exercise-tracker/static/js/2.366cd6d0.chunk.js",
+    "static/js/2.366cd6d0.chunk.js.map": "/react-and-firebase-exercise-tracker/static/js/2.366cd6d0.chunk.js.map",
     "index.html": "/react-and-firebase-exercise-tracker/index.html",
-    "precache-manifest.a8f46eeea7b83ad037150909f4c7c40e.js": "/react-and-firebase-exercise-tracker/precache-manifest.a8f46eeea7b83ad037150909f4c7c40e.js",
+    "precache-manifest.cfac32b6b6c3b60a3f87ece15d48e9ca.js": "/react-and-firebase-exercise-tracker/precache-manifest.cfac32b6b6c3b60a3f87ece15d48e9ca.js",
     "service-worker.js": "/react-and-firebase-exercise-tracker/service-worker.js",
     "static/css/2.1417c86a.chunk.css.map": "/react-and-firebase-exercise-tracker/static/css/2.1417c86a.chunk.css.map",
-    "static/css/main.050523cc.chunk.css.map": "/react-and-firebase-exercise-tracker/static/css/main.050523cc.chunk.css.map",
-    "static/js/2.eec48314.chunk.js.LICENSE.txt": "/react-and-firebase-exercise-tracker/static/js/2.eec48314.chunk.js.LICENSE.txt"
+    "static/css/main.5e43dea8.chunk.css.map": "/react-and-firebase-exercise-tracker/static/css/main.5e43dea8.chunk.css.map",
+    "static/js/2.366cd6d0.chunk.js.LICENSE.txt": "/react-and-firebase-exercise-tracker/static/js/2.366cd6d0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.af64fd28.js",
     "static/css/2.1417c86a.chunk.css",
-    "static/js/2.eec48314.chunk.js",
-    "static/css/main.050523cc.chunk.css",
-    "static/js/main.1d75e335.chunk.js"
+    "static/js/2.366cd6d0.chunk.js",
+    "static/css/main.5e43dea8.chunk.css",
+    "static/js/main.79dc5fc7.chunk.js"
   ]
 }
